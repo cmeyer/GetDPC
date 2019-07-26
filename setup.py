@@ -13,6 +13,7 @@ setuptools.setup(
     version="0.1.0",
     author="Jordan Hachtel",
     description="GetDPC package",
+    long_description=open("README.rst").read(),
     packages=["getdpc", "nionswift_plugin.getdpc"],
     install_requires=["matplotlib", "numpy", "scipy"],
     python_requires='~=3.6',
